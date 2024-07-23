@@ -7,20 +7,19 @@
 }
 
 body{
-    margin: 1rem;
+    margin: 5rem;
+    margin-left: 40rem;
     font-family: Georgia, serif;
     font-size: 2rem;
-    align-items: center;
     text-align: center;
     
 }
 
 nav{
     display: block;
-    align-items: center;
     border: 0.1rem solid black;
     border-radius: 1rem;
-    width: 80%;
+    max-width: 600px;
     min-height: 50vh;
 }
 
@@ -35,7 +34,7 @@ nav h2{
 nav ul li{
 border-bottom: 0.1rem solid black;
 list-style: none;
-padding: 0.5rem;
+padding: 1rem;
 }
 
 nav li:last-child{
@@ -50,9 +49,10 @@ nav li:last-child{
 
 p{
     font-size: 0.5em;
+    align-items: center;
     text-align: center;
-    margin: 10px auto 5px auto;
-    padding-right: 60px;
+    padding:  2rem;
+    padding-right: 600px;
     font-weight: bold
 }
 nav ul li:hover,
@@ -61,4 +61,27 @@ li:focus{
     color: white;
 }
 
+@media(max-width: 600px){
+    
+    body{
+        margin: 1rem auto 10px auto;
+    }
+    nav{
+        display: block;
+        border: 0.1rem solid black;
+        border-radius: 1rem;
+        width: 100%;
+        min-height: 50vh;
+    }
 
+    nav ul li:hover,
+li:focus{
+    background: rgb(155, 126, 126);
+    color: white;
+}
+
+p{
+    font-size: 0.5em;
+    padding: 1em;
+}
+}
