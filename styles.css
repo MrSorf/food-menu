@@ -8,7 +8,7 @@
 
 body{
     margin: 5rem;
-    margin-left: 40rem;
+    margin-left: auto;
     font-family: Georgia, serif;
     font-size: 2rem;
     text-align: center;
@@ -49,10 +49,8 @@ nav li:last-child{
 
 p{
     font-size: 0.5em;
-    align-items: center;
     text-align: center;
     padding:  2rem;
-    padding-right: 600px;
     font-weight: bold
 }
 nav ul li:hover,
