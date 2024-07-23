@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 1rem;
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    
+}
+
+nav{
+    display: block;
+    align-items: center;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    width: 80%;
+    min-height: 50vh;
+}
+
+nav h2{
+    border: 0.1rem solid transparent;
+    padding: 1rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+    background: rgb(254, 227, 22);
+    color: black;
+}
+
+nav ul li{
+border-bottom: 0.1rem solid black;
+list-style: none;
+padding: 0.5rem;
+}
+
+nav li:last-child{
+   border-radius: 0 0 0.8rem .8rem;
+   border-bottom: 1px; 
+}
+
+#foods{
+    text-decoration: underline;
+    color: blue
+}
+
+p{
+    font-size: 0.5em;
+    text-align: center;
+    margin: 10px auto 5px auto;
+    padding-right: 60px;
+    font-weight: bold
+}
+nav ul li:hover,
+li:focus{
+    background: rgb(155, 126, 126);
+    color: white;
+}
+
+
