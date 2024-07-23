@@ -42,6 +42,9 @@ nav li:last-child{
    border-bottom: 1px; 
 }
 
+p{
+    white-space: ;
+}
 #foods{
     text-decoration: underline;
     color: blue
