@@ -1,4 +1,4 @@
-*{
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -85,4 +85,11 @@ p{
     font-size: 0.5em;
     padding: 1em;
 }
-}
+} */
+ .foody p{
+    word-spacing: 2em;
+ }
+
+ .fed {
+background: orange;
+ }
